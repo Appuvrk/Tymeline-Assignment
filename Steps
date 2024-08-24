@@ -37,3 +37,6 @@ Enters the search query.
 Submits the search.
 Verifies if the search results contain relevant keywords.
 @AfterClass: Cleans up by closing the browser after the test is complete.
+
+
+Note : I apologize for any inconvenience this may have caused. I've completed an assignment using Selenium with Java, which I'm currently learning. Please take this into consideration.
