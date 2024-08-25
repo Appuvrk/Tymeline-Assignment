@@ -1,0 +1,28 @@
+Test Case 1: Verify google search is functioning properly
+Steps:
+  1. Launch the Chrome browser.
+  2. Navigate to "https://www.google.com".
+  3. Locate the search option using its `name` attribute.
+  4. Enter the search query "Recent rape cases happening in India".
+  5. Submit the search query.
+Expected Result: Google should display the search results related to the query.
+
+Test Case 2: Verify search results containing relevant keyword
+Steps:
+  1. Filtering the text from the search results headers.
+  2. Check if at least one search result contains the keyword "rape cases".
+Expected Result: Search result should contain the keyword "rape cases".
+
+Test Case 3: Verify Browser Maximization
+Steps:
+  1. Maximize the browser window after launching it.
+Expected Result: The browser window should be maximized.
+
+Test Case 4: Verify Browser Closure After Test Execution
+Steps:
+  1. Close the browser after the test case is executed.
+Expected Result :The browser should close.
+
+Additionally:
+If any unexpected errors occur during the test ,they should be identified.
+Performance Checking: Using `Thread.sleep(2000)` helps to find the loading time.
